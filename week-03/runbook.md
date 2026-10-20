@@ -68,4 +68,4 @@ After capturing the evidence, terminate the instance:
 
 ## What I learned
 
-EC2 provides virtual servers that I configure and manage. The security group acts as a stateful firewall attached to the instance. I restricted SSH to my IP address and opened port 8080 so the PropertyLite API could be reached for this lab. User data allowed the instance to install dependencies and start the application automatically during boot. EBS provides persistent block storage, and snapshots provide point-in-time backups of EBS volumes.
+EC2 provides virtual servers that I configure and manage. The security group acts as a stateful firewall attached to the instance. I restricted SSH to my IP address and opened port 8080 so the PropertyLite API could be reached for this lab. User data allowed the instance to install dependencies and start the application automatically during boot. EBS provides persistent block storage, and snapshots provide point in time backups of EBS volumes.
